@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0543fe805424df99fe08ce744cbe49, type: 3}
+  m_Name: pose
+  m_EditorClassIdentifier: 
+  m_PoseEntries:
+  - path: Hip
+    localPosition: {x: -0.07498618, y: -0.059310112, z: 0}
+    localRotation: {x: -0, y: -0, z: 0.4214061, w: 0.90687203}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Hip/Torso
+    localPosition: {x: 0.025000036, y: 0.0000000018626451, z: 0}
+    localRotation: {x: -0, y: -0, z: 0.01386866, w: 0.99990386}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Hip/Torso/Head
+    localPosition: {x: 0.120000005, y: 0.0000000030872798, z: 0}
+    localRotation: {x: -0, y: -0, z: -0.33592057, w: 0.94189036}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Hip/R_Leg
+    localPosition: {x: -0.0265906, y: 0.0114684645, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.9625802, w: 0.2709971}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Hip/L_Leg
+    localPosition: {x: 0.02101871, y: -0.051277015, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.9186609, w: 0.3950471}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Hip/duoi
+    localPosition: {x: -0.017721575, y: 0.024577089, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.73275197, w: 0.6804958}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Hip/duoi/duoi1
+    localPosition: {x: 0.020091143, y: 0.0000000055879354, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.2856803, w: 0.95832497}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Hip/duoi/duoi1/duoi2
+    localPosition: {x: 0.019565117, y: -0.000000009778887, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.17525288, w: 0.9845235}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Hip/duoi/duoi1/duoi2/duoi3
+    localPosition: {x: 0.019488782, y: 0.0000000076397555, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.17245565, w: 0.98501736}
+    localScale: {x: 1, y: 1, z: 1}

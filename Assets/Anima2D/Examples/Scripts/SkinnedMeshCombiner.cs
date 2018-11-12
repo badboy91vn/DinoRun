@@ -120,6 +120,8 @@ public class SkinnedMeshCombiner : MonoBehaviour
 		combinedMesh.CombineMeshes( combineInstances.ToArray(), true, true );
 		combinedSkinnedRenderer.sharedMesh = combinedMesh;
 		combinedSkinnedRenderer.bones = bones.ToArray();
+		combinedSkinnedRenderer.sortingLayerID = 1;
+		combinedSkinnedRenderer.sortingOrder = 1;
 		combinedSkinnedRenderer.sharedMesh.boneWeights = boneWeights.ToArray();
 		combinedSkinnedRenderer.sharedMesh.bindposes = bindposes.ToArray();
 		combinedSkinnedRenderer.sharedMesh.RecalculateBounds();
