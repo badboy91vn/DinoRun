@@ -6,9 +6,9 @@ public class PlayerMovement : MonoBehaviour
 	
     public Camera playerCamera;
 	
-    public float speed = 12.0F;
-    public float jumpSpeed = 8.0F;
-    public float gravity = 20.0F;
+    public float speed = 30.0f;
+    public float jumpSpeed = 50.0f;
+    public float gravity = 100.0f;
     private Vector3 moveDirection = Vector3.zero;
 
     void Start()
@@ -18,12 +18,11 @@ public class PlayerMovement : MonoBehaviour
             playerCamera = Camera.main;
         }
 
-		
         playerCamera.transparencySortMode = TransparencySortMode.Orthographic;
     }
 
     void Update()
-    {    
+    {
         CharacterController controller = GetComponent<CharacterController>();
         if (controller.isGrounded)
         {
